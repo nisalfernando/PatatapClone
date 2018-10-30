@@ -3,6 +3,8 @@
 <head>
 	<title>Circles</title>
 	<script type="text/javascript" src="paper-full.js"></script>
+    <link rel="stylesheet" type="text/css" href="circles.css">
+
 	<script type="text/paperscript" canvas="myCanvas">
 	  // Create a Paper.js Path to draw a line into it:
 	  var path = new Path();
@@ -17,6 +19,9 @@
 
 	  var myCircle = new Path.Circle(new Point(100, 70), 50);
       myCircle.fillColor = 'black';
+
+      var circle2 = new Path.Circle(new Point(100, 70), 300);
+      circle2.fillColor = "green";
 	</script>
 </head>
 <body>
